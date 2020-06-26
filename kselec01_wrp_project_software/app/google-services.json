@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078945313134",
+    "firebase_url": "https://cheezeloapp.firebaseio.com",
+    "project_id": "cheezeloapp",
+    "storage_bucket": "cheezeloapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078945313134:android:ef0c636bf1a41322c5917f",
+        "android_client_info": {
+          "package_name": "com.example.chezelooapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078945313134-qa9ghnpb8cj1r1rjbm58l7lf4l59pl1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRFxrMW-qcYo1uhaVeszq4smeCA9Yaihs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078945313134-qa9ghnpb8cj1r1rjbm58l7lf4l59pl1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

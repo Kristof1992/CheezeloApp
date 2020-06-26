@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cheezelo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu Tab Strings-->
+    <string name="menu_home">HOME</string>
+    <string name="menu_add_item">ADD ITEM</string>
+    <string name="menu_cheese">CHEESES</string>
+    <string name="menu_wine">WINES</string>
+    <string name="menu_about">ABOUT</string>
+    <string name="menu_logOut">LOGOUT</string>
+    <string name="menu_about_company">Cheezelo has been launched in late 2016 by Eleonore. A French national who was raised in Normandy, the well known camembert and cider region. She studied international business in the famously French Champagne region and also in Mexico and UK. After living and working in UK for the past 10 years, Eleonore aka Elo as her friends call her (hence the "Cheez-Elo"), stopped her career in IT Services and took the big challenge to pursue her passion for fine food and especially cheeses. Cheese is life as many says, she decided to make it hers too and particularly sharing with you high quality cheese and deli products, stories and recipes which will for sure impress your tasting buds.
+​
+Cheezelo specialises in regional cheese platters from various countries, also in charcuterie and others amazing cheese products and services such as events and catering. Either if it is for one person or for a community of cheese lovers, Cheezelo will take you on an adventure to experience and taste amazing cheese and savoury products.
+​
+You can follow Cheezelo on the social media to keep yourself up to date with some cheesy news and get inspired for creating the perfect cheese board or just trying a recipe!</string>
+
+</resources>

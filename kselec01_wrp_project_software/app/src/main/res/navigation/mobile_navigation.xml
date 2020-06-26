@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.chezelooapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addItem"
+        android:name="com.example.chezelooapp.ui.additem.AddItem"
+        android:label="@string/menu_add_item"
+        tools:layout="@layout/fragment_add_item" />
+
+    <fragment
+        android:id="@+id/nav_cheese"
+        android:name="com.example.chezelooapp.ui.cheese.CheeseFragment"
+        android:label="@string/menu_cheese"
+        tools:layout="@layout/fragment_cheese" >
+        <action
+            android:id="@+id/nav_cheese_to_nav_details"
+            app:destination="@id/nav_details" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_wine"
+        android:name="com.example.chezelooapp.ui.wine.WineFragment"
+        android:label="@string/menu_wine"
+        tools:layout="@layout/fragment_wine" >
+        <action
+            android:id="@+id/action_nav_wine_to_nav_details"
+            app:destination="@id/nav_details" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.chezelooapp.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.chezelooapp.ui.details.DetailsFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="navArgs"
+            app:argType="com.example.chezelooapp.models.Product"
+            android:defaultValue="@null"
+            app:nullable="true" />
+    </fragment>
+</navigation>
